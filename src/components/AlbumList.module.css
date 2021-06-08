@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f0fa;
+    font-size: 15px;
+    color: #575757;
+    margin: 50px auto;
+    width: 640px;
+    border-radius: 3px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.albumCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.albumId {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.message {
+    color: #8c0d0d;
+}
+
+.description {
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.spinner {
+    align-self: center;
+}
