@@ -6,7 +6,7 @@ export function* getAlbums() {
     yield put({ type: "ALBUMS_REQUEST" });
     try {
         const response = yield getAlbumsApi("photos");
-        console.log("agetAlbumsApi response: ", response);
+        console.log("getAlbumsApi response: ", response);
         yield put(album.success(response.slice(0, 200)));
     } catch (error) {
         console.error("getAlbumsApi error: ", error);
