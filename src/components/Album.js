@@ -1,5 +1,4 @@
 import React from "react";
-import { album } from "../actions/album";
 
 import styles from "./AlbumList.module.css";
 
